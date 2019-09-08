@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_accelerometer"
+            android:icon="@drawable/acceletometer"
+            android:title="Accelerometer" />
+        <item
+            android:id="@+id/nav_gyro"
+            android:icon="@drawable/gyroscope"
+            android:title="Gyroscope" />
+        <item
+            android:id="@+id/nav_gesture"
+            android:icon="@drawable/gesture"
+            android:title="Gesture" />
+        
+        <item
+            android:id="@+id/nav_measurefinger"
+            android:icon="@drawable/pressure"
+            android:title="MeasureFingerPressure" />
+        <item
+            android:id="@+id/nav_gps"
+            android:icon="@drawable/gps"
+            android:title="GPS" />
+        <item
+            android:id="@+id/nav_keyboard"
+            android:icon="@drawable/ic_keyboard_black_24dp"
+            android:title="Keyboard" />
+
+    </group>
+</menu>
